@@ -25,7 +25,7 @@ provider "aws" {
 }
 
 module "security_group" {
-  source = "git@github.com/RO-TIM-CEB/tf-aws-dev-ceb-sg-module.git?ref=main"
+  source = "git@github.com:/RO-TIM-CEB/tf-aws-dev-ceb-sg-module.git?ref=main"
   
 # Important note:
 # If you want to change optional values, you must know what you are doing.
